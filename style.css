@@ -1,0 +1,90 @@
+body{
+    position: relative;
+    font-family: 'Red Hat Display', sans-serif;
+    background: url("/order-summary-component-main/images/pattern-background-desktop.svg")
+ center;
+    object-fit: cover;
+    height: 100%;
+}
+
+h2{
+    font-weight: 900;
+}
+
+p{
+    font-weight: 500;
+}
+
+.cont-1{
+    position: absolute;
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    height: 700px;
+    width: 450px;
+    left: 40%;
+    margin-top: 100px;
+    border-radius: 25px;
+}
+
+#img-1{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.cont-2 >  h2, .cont-3, .link{
+    padding: 30px 0;
+    margin: 0;
+}
+
+
+.cont-3{
+    width: 350px;
+    height: 25px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    background-color: #e8e8e8b8;
+}
+
+.img-2{
+    flex: -1;
+    padding: 0 20px;
+
+}
+#p-2{
+    flex: 2;
+    text-align: left;
+}
+.link{
+    flex:1;
+}
+
+
+.cont-4{
+    padding: 20px;
+}
+
+.bt{
+    width: 80%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px 0;
+}
+
+#bt-1{
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border: none;
+    box-shadow: 0 5px #f9f7f782;
+}
+
+#bt-2{
+    background-color: transparent;
+    border: none;
+}
+
+
+
+
